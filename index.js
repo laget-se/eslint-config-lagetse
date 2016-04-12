@@ -32,11 +32,14 @@ module.exports = {
     // Enforces lifecycle methods being declared at the top of a component
     // class/object.
     "react/sort-comp": [2, {
-       "order": [
-         "lifecycle",
-         "everything-else"
-       ],
-     }],
+      "order": [
+        "lifecycle",
+        "everything-else"
+      ],
+    }],
+
+    // It's up to you, man
+    "react/prefer-es6-class": [0],
 
     // Provide a way to
     //
