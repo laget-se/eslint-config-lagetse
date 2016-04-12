@@ -4,7 +4,8 @@
   "description": "JavaScript linting rules for laget.se",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js"
+    "lint": "eslint index.js",
+    "lint:ls": "eslint --print-config lib/empty.js"
   },
   "repository": {
     "type": "git",
