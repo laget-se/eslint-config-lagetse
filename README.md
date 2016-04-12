@@ -10,7 +10,7 @@ To view a full list of all the rules being applied, run:
 npm run lint:ls
 ```
 
-## Setup and usage
+### Setup and usage
 
 Install the config:
 
@@ -46,3 +46,9 @@ gulp.task('lint:js', () => {
     .pipe(eslint());
 });
 ```
+
+### Type-time linting in editors
+
+#### Sublime
+
+https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.vrv9pvsul
