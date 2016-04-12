@@ -9,3 +9,9 @@ To view a full list of all the rules being applied, run:
 ```
 npm run lint:ls
 ```
+
+### Type-type linting in editors
+
+#### Sublime
+
+https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.vrv9pvsul
