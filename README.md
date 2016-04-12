@@ -9,3 +9,40 @@ To view a full list of all the rules being applied, run:
 ```
 npm run lint:ls
 ```
+
+## Setup and usage
+
+Install the config:
+
+```
+npm i -D eslint-config-lagetse
+```
+
+Add a `.eslintrc` to the project root:
+
+```json
+{
+  "extends": "lagetse"
+}
+```
+
+Now go linting!
+
+```json
+// package.json
+{
+  "scripts": {
+    "lint:js": "eslint --ext .js --ext .jsx path/to/src/dir"
+  }
+}
+```
+
+```js
+// Using gulp
+import eslint from 'gulp-eslint';
+
+gulp.task('lint:js', () => {
+  gulp.src(['path/to/**/*.js', 'path/to/**/*.jsx'])
+    .pipe(eslint());
+});
+```
