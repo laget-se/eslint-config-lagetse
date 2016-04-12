@@ -41,6 +41,10 @@ module.exports = {
     // It's up to you, man
     "react/prefer-es6-class": [0],
 
+    // We prefer stateless functional components, since they are more optimizable
+    // when composing them into higher-order components.
+    "react/prefer-stateless-function": [2],
+
     // Provide a way to
     //
     // a) import modules that set globals (the colors package for example) and
