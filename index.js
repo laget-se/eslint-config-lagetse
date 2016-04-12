@@ -29,6 +29,15 @@ module.exports = {
     // for shared components, this should be overridden (read in the FEC)
     'react/prop-types': 0,
 
+    // Enforces lifecycle methods being declared at the top of a component
+    // class/object.
+    "react/sort-comp": [2, {
+       "order": [
+         "lifecycle",
+         "everything-else"
+       ],
+     }],
+
     // Provide a way to
     //
     // a) import modules that set globals (the colors package for example) and
