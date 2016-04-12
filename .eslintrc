@@ -1,0 +1,11 @@
+{
+  "extends": "lagetse",
+  "rules": {
+
+    // index.js is ES5 compatible CommonJS style
+    "comma-dangle": 0,
+
+    // Enforce JSON style
+    "quote-props": [2, "always"]
+  }
+}

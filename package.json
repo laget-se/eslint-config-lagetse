@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "JavaScript linting rules for laget.se",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/user/repo.git"

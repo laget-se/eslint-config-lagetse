@@ -1,25 +1,25 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    amd: false,
-    commonjs: true,
-    mocha: false,
-    jasmine: false,
-    es6: true
+  'env': {
+    'browser': true,
+    'node': true,
+    'amd': false,
+    'commonjs': true,
+    'mocha': false,
+    'jasmine': false,
+    'es6': true
   },
-  parserOptions: {
-    ecmaVersion: 6,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      jsx: true
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'ecmaFeatures': {
+      'experimentalObjectRestSpread': true,
+      'jsx': true
     }
   },
-  extends: 'airbnb',
-  plugins: ['react', 'jsx-a11y'],
-  rules: {
+  'extends': 'airbnb',
+  'plugins': ['react', 'jsx-a11y'],
+  'rules': {
     'brace-style': [2, 'stroustrup', { 'allowSingleLine': true }],
-    'max-len': [2, 120, 2, {'ignoreUrls': true}],
+    'max-len': [2, 120, 2, { 'ignoreUrls': true }],
 
     // When working with words or english phrases as keys, you need to be
     // able to quote keys, like `'My key': 'My value'`.
@@ -39,4 +39,4 @@ module.exports = {
       'argsIgnorePattern': '^_'
     }]
   },
-}
+};
