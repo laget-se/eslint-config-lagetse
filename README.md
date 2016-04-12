@@ -10,7 +10,7 @@ To view a full list of all the rules being applied, run:
 npm run lint:ls
 ```
 
-### Type-type linting in editors
+### Type-time linting in editors
 
 #### Sublime
 
