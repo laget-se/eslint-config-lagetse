@@ -53,6 +53,15 @@ module.exports = {
     'no-unused-vars': [2, {
       'varsIgnorePattern': '[iI]gnored',
       'argsIgnorePattern': '^_'
-    }]
+    }],
+
+    // "On the other hand, if the code is targeting only ES5-compliant environments
+    // passing the radix 10 may be redundant. In such a case you might want to
+    // disallow using such a radix."
+    //
+    // Only needed when targeting EcmaScript <5
+    //
+    // http://eslint.org/docs/rules/radix
+    'radix': 0
   },
 };
