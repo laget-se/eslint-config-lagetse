@@ -31,19 +31,19 @@ module.exports = {
 
     // Enforces lifecycle methods being declared at the top of a component
     // class/object.
-    "react/sort-comp": [2, {
-      "order": [
-        "lifecycle",
-        "everything-else"
+    'react/sort-comp': [2, {
+      'order': [
+        'lifecycle',
+        'everything-else'
       ],
     }],
 
     // It's up to you, man
-    "react/prefer-es6-class": [0],
+    'react/prefer-es6-class': [0],
 
     // We prefer stateless functional components, since they are more optimizable
     // when composing them into higher-order components.
-    "react/prefer-stateless-function": [2],
+    'react/prefer-stateless-function': [2],
 
     // Provide a way to
     //
