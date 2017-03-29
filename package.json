@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user/repo.git"
+    "url": "git+https://github.com/laget-se/eslint-config-lagetse.git"
   },
   "keywords": [],
   "author": "laget.se <utveckling@laget.se> (http://www.laget.se)",
